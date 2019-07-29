@@ -2,7 +2,6 @@
 // Originally by GitHub#Liath
 // Based on IRS Circular E - http://www.irs.gov/pub/irs-pdf/p15.pdf
 // Per the "Percentage Method"
-
 export interface TaxBracket {
     income: number;
     taxRate: number;
