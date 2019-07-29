@@ -36,3 +36,7 @@ What changes would you recommend be made to the code at [fedtax.js](./federal-ta
 2. Use const for variables, stop doing multiple assignments
 3. Modify the function to stop using global variables
 4. Extract some business logic out of the function
+
+## Exercise 4
+
+Completed setup of [tax-calculator](./tax-calculator) folder. Can run tests in typescrit using ts-jest.
