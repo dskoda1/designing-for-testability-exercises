@@ -30,7 +30,7 @@ A: Time constraints to release features, not writing enough tests, not thinking 
 
 ## Exercise 2
 
-What changes would you recommend be made to the code at [fedtax.js](./federal-tax/fedtax.js)?
+Q: What changes would you recommend be made to the code at `[fedtax.js](./federal-tax/fedtax.js)`?
 
 1. Make variable names more descriptive
 2. Use const for variables, stop doing multiple assignments
@@ -40,3 +40,15 @@ What changes would you recommend be made to the code at [fedtax.js](./federal-ta
 ## Exercise 4
 
 Completed setup of [tax-calculator](./tax-calculator) folder. Can run tests in typescrit using ts-jest.
+
+## Exercise 5
+
+Refactored `[fedtax.ts](./tax-calculator/src/fedtax.ts)` extensively. Main ways we tackled the refactor are:
+
+1. Make variable names more descriptive  
+2. Use dependency injection to pass magic numbers/inputs  
+3. Use types to define the data structures  
+
+## Exercise 6 
+
+Implemented `[fizzbuzz.ts](./fizzbuzz/src/fizzbuzz.ts)` using TDD: `[fizzbuzz.test.ts](./fizzbuzz/src/fizzbuzz.test.ts)`
